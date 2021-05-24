@@ -18,4 +18,3 @@ async def hello(ctx):
 # client 실행
 client.run(jb_app_token)
 
-
