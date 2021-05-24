@@ -2,7 +2,8 @@
 from discord.ext import commands
 
 # token
-from bot.token import JB_APP_TOKEN
+import bot_token
+jb_app_token = bot_token.JB_APP_TOKEN
 
 # JB_APP
 
@@ -14,8 +15,7 @@ client = commands.Bot(command_prefix='*')
 async def hello(ctx):
     await ctx.send('안녕하세요')
 
-
 # client 실행
-client.run(JB_APP_TOKEN)
+client.run(jb_app_token)
 
 
