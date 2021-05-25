@@ -1,2 +1,2 @@
-discprd.py
+discord.py
 asyncio
