@@ -2,8 +2,7 @@
 from discord.ext import commands
 
 # token
-import bot_token
-jb_app_token = bot_token.JB_APP_TOKEN
+import os
 
 # JB_APP
 
@@ -18,5 +17,5 @@ async def hello(ctx):
 
 
 # client 실행
-client.run(jb_app_token)
+client.run(os.environ['token'])
 
