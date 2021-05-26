@@ -13,7 +13,7 @@ client = commands.Bot(command_prefix='*')
 # command 별명 (aliases=['안녕', '안녕하세요', 'ㅎㅇ'])
 @client.command(name = '안녕')
 async def hello(ctx):
-    await ctx.send('안녕하세요 {}'.format(ctx.guild.owner))
+    print("test")
 
 
 # client 실행
