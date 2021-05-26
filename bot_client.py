@@ -9,6 +9,8 @@ import os
 
 intents = discord.Intents.default()
 intents.members = True
+intents.guilds = True
+intents.message = True
 
 # client 생성
 client = commands.Bot(command_prefix='*', intents=intents)
