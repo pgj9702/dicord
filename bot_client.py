@@ -1,12 +1,24 @@
 # discord
 import discord
 from discord.ext import commands
-
-# token
 import os
 
-# JB_APP
+# 반복 작업을 위한 패키지
+from discord.ext import tasks
+# 현재 시간을 받아와 구조체에 넣어주는 용도로 사용할 패키지
+import datetime
+# 중복 전송을 방지하기 위해 사용할 패키지
+import time
 
+# loa_auction
+# 경매장에 원하는 필터로 1분 간격 검색
+# 개인당 3개 이하까지 등록 가능
+# 새로 등록된 물품 발견시 알림
+
+# 최초 등록 시 현재 경매장에 등록된 물품 정보 출력 (max 5, 입찰 시간 적은 순)
+# 이후 새로운 물품 등록 시 알람
+
+# JB_APP
 intents = discord.Intents.default()
 intents.members = True
 intents.guilds = True
