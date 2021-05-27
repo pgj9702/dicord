@@ -14,3 +14,9 @@ https://donologue.tistory.com/371?category=919791
 else
 https://ioxoi.tistory.com/entry/%EB%94%94%EC%8A%A4%EC%BD%94%EB%93%9C-%EB%B4%87-%EA%B0%95%EC%A2%8C-4%ED%8E%B8-Github%EC%99%80Heroku%EB%A1%9C-%ED%98%B8%EC%8A%A4%ED%8C%85
 https://blog.yonghyeon.com/2
+
+heroku repeat request
+https://kaffeine.herokuapp.com/
+
+task
+https://m.blog.naver.com/6116949/222045864545
