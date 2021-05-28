@@ -91,12 +91,12 @@ async def on_message(message):
 # music, picture etc .. file upload
 
 # client 실행
-# client.run(os.environ['token'])
+client.run(os.environ['token'])
 
 # terminal test
-from bot_token import JB_APP_TOKEN
-bot_token = JB_APP_TOKEN
-client.run(bot_token)
+# from bot_token import JB_APP_TOKEN
+# bot_token = JB_APP_TOKEN
+# client.run(bot_token)
 
 
 
