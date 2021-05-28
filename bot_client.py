@@ -35,7 +35,9 @@ async def hello(ctx):
     await ctx.send('안녕하세요 {}'.format(ctx.guild.owner))
     await ctx.send('안녕하세요 {}'.format(ctx.author.name))
     await ctx.author.send('안녕하세요 {}'.format(ctx.author.name)) # 개인 메시지
-    await ctx.author.send('안녕하세요 {}'.format(ctx.author.name)) # 개인 메시지
+    await ctx.author.send('안녕하세요 {}'.format(ctx.author.profile)) # 개인 메시지
+    await ctx.author.send('안녕하세요 {}'.format(ctx.author.id)) # 개인 메시지
+    await ctx.author.send('안녕하세요 {}'.format(type(ctx))) # 개인 메시지
 
     print(type(ctx))
     print(dir(ctx.author))
