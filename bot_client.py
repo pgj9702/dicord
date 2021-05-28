@@ -35,9 +35,20 @@ async def hello(ctx):
     await ctx.send('안녕하세요 {}'.format(ctx.guild.owner))
     await ctx.send('안녕하세요 {}'.format(ctx.author.name))
     await ctx.author.send('안녕하세요 {}'.format(ctx.author.name)) # 개인 메시지
+    await ctx.author.send('안녕하세요 {}'.format(ctx.author.name)) # 개인 메시지
 
+    print(type(ctx))
     print(dir(ctx.author))
     print("hello")
+
+# ctx.author 명령어를 보낸 사람
+# ctx.bot 명령어를 포함하는 봇에 대한 정보
+# ctx.channel 명령어를 보낸 textchannel
+# ctx.command 현재 명령어
+# ctx.command_failed 실패 시 True 반환
+# ctx.guild 디스코드 서버 정보
+# ctx.message 채팅 정보
+# ctx.me 봇의 이름과 번호
 
 # ctx.author
 # '__abstractmethods__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__',
